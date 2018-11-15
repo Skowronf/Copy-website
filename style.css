@@ -1,0 +1,125 @@
+body, html
+{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 20px;
+
+}
+
+img {
+    width: 400px;
+  
+}
+
+.nav-bar {
+    padding-top: 120px;
+    padding-left: 400px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:active,
+li a:hover {
+    color: #d8d8d8;
+    transition: color 0.2s;
+   
+}
+
+.active {
+    color: crimson;
+}
+
+.sign-in-bar {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 15px;
+}
+
+.img-slide {
+    padding-top: 18px;
+    margin-left: 0;
+    display: block;
+
+
+}
+
+.img-slide img {
+    background: url(zdjecei1.jpg);
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+
+.img-slide img:hover,
+.img-slide img:active {
+    opacity: 0.9;
+    transition: opacity 0.2s
+}
+
+.btn {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    font-size: 16px;
+    padding: 18px 59px;
+    border: solid;
+    text-align: center;
+    font-weight: 600;
+}
+
+.column:first-child {
+    float: left;
+    width: 33.3%;
+    padding: 40px;
+    margin-left: 240px;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 40px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
